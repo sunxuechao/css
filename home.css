@@ -220,3 +220,36 @@ a{color: #333;text-decoration: none;}
     padding: 9px 102px;
     border: 1px solid #e1e4e5;
 }
+.right-search{
+    position: relative;
+    margin-bottom: 15px;
+    float: right;
+    width: 100%;
+}
+.right-search #s-word{
+    width: 80%;
+    margin: 0;
+    float: left;
+    padding: 6px 10px;
+    font-size: 1em;
+    color: #aaa;
+    border: 1px solid #ccc;
+    outline: none;
+    display: block;
+    background: #fff;
+    vertical-align: baseline;
+}
+.right-search #s-btn {
+    width: 15%;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    position: absolute;
+    cursor: pointer;
+    -webkit-appearance: button;
+    right: 0;
+    line-height: normal;
+    top: 0;
+    margin: 0;
+}
